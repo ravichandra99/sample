@@ -1,0 +1,134 @@
+Basics
+-----------------
+datatypes
+
+int   (1,2,3)
+float (2.0,3.7)
+str   ('Hello')
+bool  (True , False)
+
+complex (2 + 5j)
+
+
+the datatype is not explicitly declared, its dynamically inferred
+
+arthematic operators
+-----------
++ add
+- sub
+* mul
+/ div
+
+// quotient
+% remainder
+** raise to/power
+
+logical operators
+--------------
+== equals
+>= greater than or equal to
+<= less than or equal to
+!= not equals
+> greater than
+< less than
+
+
+
+sequences
+---------------------
+collection of datatypes
+
+list        []
+tuple       ()
+dict        {'key':'value'}
+set         {}
+
+
+indexing and slicing
+----------------
+to retrieve the elements in the sequence
+
+once a tuple is declared it cant be changed (immutable)
+
+
+retrieve values using keys in a dictionary
+dict[key] = value
+
+____________________________________________________
+
+if-else, for loop and while loop
+
+syntax
+if-else
+_______________
+
+if boolexpr:
+	statement1
+	statement2
+else:
+	statements
+
+_______________
+
+
+if-elif-else
+
+elif
+else if
+_____________
+
+while loop:
+
+
+
+while boolexpr:
+	statement1
+	statement2
+statement3 #outside while
+
+
+keywords - break,continue and pass
+
+break - when control encounters the break statement, loop will be exited
+continue - when control encounters the continue statement , loop will skip the iteration
+pass - when control encounters the pass statement , it does nothing
+
+
+for loop:
+
+for var in iterable:
+	statement 1
+	statement 2
+statement 3 #outside for
+
+
+
+list comprehension:
+
+
+[expr for var in iter if boolexpr]
+
+for var in iter:
+	if boolexp:
+		expr
+
+
+________________________________
+functions, api and oops
+
+
+
+
+flask webframework
+
+microframework
+
+netflix uses flask stream videos to clients
+
+
+
+Django framework
+
+MTV Architecture
+
+1. create a virtual environment
